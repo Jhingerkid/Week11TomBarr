@@ -86,6 +86,15 @@
   background-color: rgb(61, 61, 61);
 }
 
+.footer-columns a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-columns a:hover {
+  text-decoration: underline;
+}
+
 .header {
   display: flex;
   align-items: center;
