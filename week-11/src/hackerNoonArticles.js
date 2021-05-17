@@ -604,7 +604,7 @@ const data = {
             "readIn": "7min read",
             "posted": "3 hours ago",
             "hashTag": "#developer",
-            "imgSrc": "https://loremflickr.com/320/240/SoftwareDevelopment?random=1"
+            "imgSrc": "https://loremflickr.com/320/240/Software?random=1"
         },
         {
             "titleText": "Is The Daily Standup A Waste Of Time?",
@@ -615,7 +615,7 @@ const data = {
             "readIn": "6min read",
             "posted": "2 days ago",
             "hashTag": "#agile-scrum",
-            "imgSrc": "https://loremflickr.com/320/240/SoftwareDevelopment?random=2"
+            "imgSrc": "https://loremflickr.com/320/240/Software?random=2"
         },
         {
             "titleText": "Do Not Refactor Code That is Not Yet Working: Beautiful Code is Wor...",
@@ -626,7 +626,7 @@ const data = {
             "readIn": "6min read",
             "posted": "2 days ago",
             "hashTag": "#software-engineering",
-            "imgSrc": "https://loremflickr.com/320/240/SoftwareDevelopment?random=3"
+            "imgSrc": "https://loremflickr.com/320/240/Software?random=3"
         }
     ]
 }

@@ -6,12 +6,15 @@ class Infosection extends React.Component{
     super(props);
   }
   render(){
-    console.log(this.props);
+    console.log(this.props.title);
     return(
-      <div className="section-panels">
-        <Panel article={this.props.section[0]}/>
-        <Panel article={this.props.section[1]}/>
-        <Panel article={this.props.section[2]}/>
+      <div className="section">
+        <h3>{this.props.title}</h3>
+        <div className="section-panels">
+          <Panel article={this.props.section[0]}/>
+          <Panel article={this.props.section[1]}/>
+          <Panel article={this.props.section[2]}/>
+        </div>
       </div>
     );
   }
