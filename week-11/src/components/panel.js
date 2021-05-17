@@ -1,31 +1,26 @@
 import React from 'react';
 
-class Panel extends React.Component{
-  constructor(props){
-    super(props);
-  }
-  render(){
+const Panel = props => {
     return(
       <div className="article-panel">
-        <ArticleTitle titleText={this.props.article.titleText} titleLink={this.props.article.titleLink}/>
-        <ArticleImage imgSrc={this.props.article.imgSrc} />
+        <ArticleTitle titleText={props.article.titleText} titleLink={props.article.titleLink}/>
+        <ArticleImage imgSrc={props.article.imgSrc} />
         <ArticleAuthor 
-            avatarSrc={this.props.article.avatarSrc} 
-            userName={this.props.article.userName} 
-            author={this.props.article.author}
-            readIn={this.props.article.readIn}
-            posted={this.props.article.posted}
+            avatarSrc={props.article.avatarSrc} 
+            userName={props.article.userName} 
+            author={props.article.author}
+            readIn={props.article.readIn}
+            posted={props.article.posted}
         />
       </div>
     );
-  }
 };
 
-const ArticleAuthor = (props) => {
+const ArticleAuthor = props => {
     return (
         <div className="article-info">
             <div className="author-info">
-                <img src={props.avatarSrc}/>
+                <img src={props.avatarSrc} alt="Author Avatar"/>
                 <div className="author-text">
                     <span>{props.userName}</span>
                     <span>{props.author}</span>
@@ -39,15 +34,15 @@ const ArticleAuthor = (props) => {
     );
 }
 
-const ArticleImage = (props) => {
+const ArticleImage = props => {
     return (
         <div className="article-image">
-            <img src={props.imgSrc}/>
+            <img src={props.imgSrc} alt="Article"/>
         </div>
     );
 }
 
-const ArticleTitle = (props) => {
+const ArticleTitle = props => {
     return (
         <div className="article-title">
             <a href={props.titleLink}>{props.titleText}</a>
