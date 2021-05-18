@@ -1,4 +1,4 @@
-# TL;DR "npm start" while in wee-11 directory
+# TL;DR "npm start" while in week-11 directory
 
 # Getting Started with Create React App
 
