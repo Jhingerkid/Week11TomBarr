@@ -4,6 +4,7 @@ const FooterColumn = props => {
     })
     return(
     <div className="footer-columns">
+        <span>{props.columnTitle}</span>
         {footerLines}
     </div>
     );
